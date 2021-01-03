@@ -9,7 +9,8 @@ Nedan hittar du en innehållsförteckning på vad du kan lära dig om på den 
 ## C# .NET
 
 - [Ladda ner och installera verktygen](./csharp/ladda-ner-och-installera-verktygen/index.html)
-- Program
+- [Skapa och kör ditt första program](./csharp/skapa-och-kör-ditt-första-program/index.html)
+- Vad är ett program?
 - Sekvenser och element
 - Plattform
   - Minne
