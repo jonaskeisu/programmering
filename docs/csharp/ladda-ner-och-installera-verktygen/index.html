@@ -588,9 +588,9 @@ window.addEventListener('load', function () {
 <p>Vi börjar med att ladda ner senaste versionen av <em>utvecklingsverktygen</em> för .NET. Det kan du göra på den här <a href="https://dotnet.microsoft.com/download">sidan</a>. Hitta knappen på sidan där det står <em>Download .NET SDK</em> (alltså INTE knappen där det står *Download .NET Core SDK). Klicka på knappen för att ladda ner installationsfilen. När filen är nedladdad kör du den och följer instruktionerna för att fullfölja installationen. Du behöver inte ändra några inställningar.</p>
 <p>Nu är det dags att installera utvecklingsmiljön. Det är detta program du kommer använda för att skriva kod och för att köra dina egna program när du felsöker koden. Utvecklingsmiljön är heter Visual Studio Code och är gratis. Du laddar ner den från denna <a href="https://code.visualstudio.com/download">sida</a>. Klicka på knappen för nedladdning under operativsystemet på din dator. När filen är nedladdad så kör du den och följer instruktionerna för att fullfölja installationen.</p>
 <p>Efter att du installerat Visual Studio Code kör du programmet på din datorn. Du bör få upp en skärm som ser ut ungefär som nedan, men färgerna kommer se olika ut beroende på dina inställningar.</p>
-<p>![]<image src="res/2021-01-01-20-03-26.png"/></p>
+<image src="res/2021-01-01-20-03-26.png"/>
 <p>Längst till vänster i fönstret för Visual Studio Code finns en area som kallas <em>Activity Bar</em> och som ser ut som nedan.</p>
-<p>![]<image src="res/2021-01-01-20-11-22.png"/></p>
+<image src="res/2021-01-01-20-11-22.png"/>
 <p>Ikonerna i denna area öppnar vyer i programmet som används för olika aktiviteter.</p>
 <p>Den första ikonen, som ser ut som två blad, öppnar en vy som heter <em>Explorer</em> som hjälper dig överblicka alla filer i ditt programmeringsprojekt.</p>
 <p>Den andra ikonen, som ser ut som ett förstoringsglas, öppnar en vy som heter <em>Search</em> och som hjälper dig hitta text i filerna i ditt programmeringsprojekt.</p>
@@ -599,24 +599,24 @@ window.addEventListener('load', function () {
 <p>Den femte ikonen, som ser ut som fyra kvadratiska klossar, öppnar en vy som heter <em>Extensions</em> som hjälper dig att installera utökade funktioner i Visual Studio Code.</p>
 <p>Visual Studio Code kan användas till mycket mer än att bara programmera C# .NET. För att kunna programmera C# .NET med Visual Studio Code måste du innifrån Visual Studio Code installera utökad funktionalitet (eng. <em>extension</em>).</p>
 <p>För att installera utökningen i Visual Studio Code, klicka på ikonen för Extension-vyn. Du kommer då få upp en vy i Visual Studio som ser ut ungefär så här:</p>
-<p>![]<image src="res/2021-01-01-20-26-36.png"/></p>
+<image src="res/2021-01-01-20-26-36.png"/>
 <p>I sökfältet högst upp i vyn skriver du <code>C#</code>. Detta kommer resultera i en filtrerad lista av tillgänliga utökningar för Visual Studio Code som har med C# att göra. Efter du skrivit in <code>C#</code> i sökfältet bör Extension-vyn se ut ungefär så här:</p>
-<p>![]<image src="res/2021-01-01-20-30-13.png"/></p>
+<image src="res/2021-01-01-20-30-13.png"/>
 <p>Den utökning du vill installera ligger antagligen högst upp i listan och heter <em>C#</em> med <em>Microsoft</em> som utgivare. Klicka på den lilla <em>Install</em>-knappen till höger om om namnet på utgivaren av utökningen.</p>
 <p>Grattis! Om du lyckats följa instruktionerna ovan så har du nu installerat alla verktyg du behöver för att börja programmera C# .NET.</p>
 <p>Låt oss avsluta genom att skapa ditt första program och samtidigt kontrollera att alla verktygen fungerar som de skall. Börja med att stänga ner Visual Studio Code.</p>
 <p>Det är lämplig att skapa en katalog på din dator där du samlar alla dina programmeringsprojekt. Skapa en sådan var du vill, t.ex. på skrivbordet eller i din hemkatalog. Du kan t.ex. döpa katalogen till <code>programmering</code> eller <code>kod</code>. Jag har döpt min katalog till <code>src</code>, vilkte är en förkorning av ordet <em>source</em> som är engelska för kod.</p>
 <p>I din nya katalog skapar du sedan en underkatalog för ditt första programmeringsprojekt. Kalla denna katalog för <code>HelloWord</code>.</p>
 <p>Öppna sedan upp Visual Studio Code igen. I den stora skärmarean bör du se en länk som heter <code>Open folder</code>. Klicka på länken (ser du inte länken kan du även välja alternativet <code>Open..</code> under menyn <code>File</code>). Från det nya fönstret som dök upp på skärmen, bläddra fram till katalogen <code>HelloWorld</code> som du nyss skapade, gå in i katalogen och klicka sedan <code>Open</code>-knappen nere till höger. Ditt Visual Studio Code-fönster bör nu se ut ungefär som på bilden nedan (ser du inte arean med titeln <code>EXPLORER</code>), tryck då på knappen för att öppna Explorer-vyn i din Activity bar.</p>
-<p>![]<image src="res/2021-01-01-20-48-31.png"/></p>
+<image src="res/2021-01-01-20-48-31.png"/>
 <p>I Explorer-vyn, under rubriken <code>HELLOWORLD</code>, ser du alla filer i ditt programmeringspojekt men ännu innehåller inte ditt projekt några filer.</p>
 <p>Det finns många kommandon i Visual Studio Code. Ett enkelt sätt att hitta kommandot man behöver är genom att användra <em>Kommandopaletten</em>. Om du kör Windows tryck <code>Ctrl</code> + <code>Shift</code> + <code>p</code> för att få upp kommandopaletten i ditt Visual Studio Code-fönster. Kör du Mac tryck du istället ⌘ + Shift + p. Din fönster bör nu se ut ungefär så här:</p>
-<p>![]<image src="res/2021-01-01-20-58-33.png"/></p>
+<image src="res/2021-01-01-20-58-33.png"/>
 <p>Skriv in söktexten <code>toggle panel</code> efter större-än-tecknet (<code>&gt;</code>) i sökfältet tillhörande kommandopaletten högst upp i fönstret. Detta kommer resultera i en filtrerad lista av Visual Studio Code-kommandon under sökfältet. Din skärm bör nu se ut ungefär så här:</p>
-<p>![]<image src="res/2021-01-02-17-56-43.png"/></p>
+<image src="res/2021-01-02-17-56-43.png"/>
 <p>Från den filtrerade listan skall du nu välja kommandot <code>View: Toggle Panel</code>. Notera också att till höger om kommandot så står det vilken knappkombination som kan användas som en genväg för att köra kommandot, om det finns någon sådan för det aktuella kommandot.</p>
 <p>Efter att du kört kommandot <code>View: Toggle Panel</code> dyker ytterligare en vy upp längst ner i fönstret som nu bör se ut ungefär såhär:</p>
-<p>![]<image src="res/2021-01-02-18-01-07.png"/></p>
+<image src="res/2021-01-02-18-01-07.png"/>
 <p>Den nya vyn heter <em>Panel</em>-vyn och innhåller fyra flikar:</p>
 <ul>
 <li><em>Problems</em></li>
@@ -630,10 +630,10 @@ window.addEventListener('load', function () {
 <pre><code class="language-console"><div>dotnet new console
 </div></code></pre>
 <p>Innan du trycker på enter-knappen, bör ditt fönster se ut ungefär såhär:</p>
-<p>![]<image src="res/2021-01-02-18-06-07.png"/></p>
+<image src="res/2021-01-02-18-06-07.png"/>
 <p>Tryck på enter-knappen för att verkställa kommandot.</p>
 <p>Efter att du tryck på enter-knappen och kommandot kör färdigt så bör ditt fönster se ut ungefär såhär:</p>
-<p>![]<image src="res/2021-01-02-18-08-24.png"/></p>
+<image src="res/2021-01-02-18-08-24.png"/>
 <p>Kommandot du nyss körde skapade ett programmeringprojekt med alla nödvändiga filer utgående för en mall för <em>konsolapplikationer</em>, vilket vi kommer prata mer om senare. Notera i Explorer-vyn att det har dykt upp två nya filer:</p>
 <ul>
 <li><code>HelloWorld.csproj</code></li>
@@ -645,7 +645,7 @@ window.addEventListener('load', function () {
 </ul>
 <p>i katalogen <code>HelloWorld</code> som du skapade tidigare.</p>
 <p>Du kan klicka på filen <code>Program.cs</code> för att få din första titt på kod skriven med C# .NET, genererad från mallen. Efter du klickat på filnamnet bör din skärm se ut ungefär så här:</p>
-<p>![]<image src="res/2021-01-02-18-14-20.png"/></p>
+<image src="res/2021-01-02-18-14-20.png"/>
 <p>Första gången du gör detta kommer Visual Studio Code ladda ner paket med funktioner som behövs för att programmera C# .NET. När detta är klart dyker det lilla fönstret som du ser nere till höger i bilden upp. Fönstret ställer frågan:</p>
 <pre><code class="language-console"><div>Required assest to build and debug are missing from `HelloWorld`. Add them?
 </div></code></pre>
@@ -654,7 +654,7 @@ window.addEventListener('load', function () {
 <pre><code class="language-console"><div>dotnet run
 </div></code></pre>
 <p>och verkställ kommandot genom att trycka på enter-knappen. Om allt fungerade som det skall får du utskriften <code>Hello World!</code> i terminalen, som i bilden nedan:</p>
-<p>![]<image src="res/2021-01-02-18-24-29.png"/></p>
+<image src="res/2021-01-02-18-24-29.png"/>
 <p>Grattis! Du har lyckats skapa ditt första program med C# .NET! Senare kommer du upprepa processen beskriven ovan men för andra kataloger än <code>HelloWorld</code> och ändra innehållet i <code>Program.cs</code> för att ändra hur programmet fungerar.</p>
 
     </body>
