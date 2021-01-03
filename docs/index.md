@@ -8,7 +8,7 @@ Nedan hittar du en innehållsförteckning på vad du kan lära dig om på den 
 
 ## C# .NET
 
-- [Ladda ner och installera verktygen](./csharp/ladda-ner-och-installera-verktygen.html)
+- [Ladda ner och installera verktygen](./csharp/ladda-ner-och-installera-verktygen/index.html)
 - Program
 - Sekvenser och element
 - Plattform
